@@ -1,0 +1,28 @@
+TAG start and finished={
+                        TEXT SYESTYM={h1, br, p ,pre}
+                        FONT DESIGN= {sup, sub, b, u, i, strike, mark, del}
+                        LIST=ol , ul       
+                        IMAGE=img,
+                        IFRAME=iframe,src
+                        LINK=a,src,blank
+
+SYSTEM  ={src,href,blank}
+TABLE  ={thead,tbody,table,tr,th,td,rowspan,colspan, colgroup, caption}
+
+
+
+
+
+
+TAG just start     ={hr, &nbsp, &copy, &lt, &gt}
+                    LIST={ol, type="i/b/u/mark...", start="4", li,
+                    ul, circle,squre }
+                    IMAGE={img,src,border,height, width, hspace, vspace, alt}
+
+
+
+
+STYLE   =(align="right/left/center/justify"),(background-color="red,..," ),
+         (color="red,..,")
+         
+

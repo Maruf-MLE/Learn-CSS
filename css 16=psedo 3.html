@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:first-child{
+            color: brown;
+            background-color: black;
+        }
+        p:last-child{
+            color: brown;
+            background-color: yellow;
+        }
+        p:nth-child(3){
+            color: white;
+            background-color: black;
+        }
+        li:first-of-type{
+            color: aqua;
+            background-color: black;
+        }
+        li:nth-last-of-type(2){
+            background-color: red;
+            color: aqua;
+        }
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+        .demo::before{
+            content: "o";
+            width: 100%;
+            height: 20%;
+            background-color: green;
+            display: inline-block;
+        }
+        .demo::after{
+            content: 'o';
+            width: 100%;
+            height: 20%;
+            background-color: green;
+            display: inline-block;
+        }
+        ::placeholder{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo">
+        <p>bangladesh is a small county</p>
+        <p>bangladesh is a small county</p>
+        <p>bangladesh is a small county</p>
+        <p>bangladesh is a small county</p>
+        <p>bangladesh is a small county</p>
+
+    </div>
+    <ul>
+        <li>home er</li>
+        <li>home er</li>
+        <li>home er</li>
+        <li>home er</li>
+    </ul>
+
+    <input type="text"placeholder="enter your name"
+</body>
+</html>

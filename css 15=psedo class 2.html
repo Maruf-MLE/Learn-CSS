@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,tr{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        tr:nth-child(odd){
+            background-color: brown;
+        }
+        p::first-letter{
+            font-size: 3.5rem;
+            color: brown;
+        }
+        p::after{
+            content: ">";
+        }
+        p::before{
+            content: "<" ;
+            
+        }
+        p::{
+            font-size: 3.5rem;
+            color: brown;
+        }
+
+    </style>
+</head>
+<body>
+  <table>
+    <tr>
+        <td>name</td>
+        <td>age</td>
+    </tr>
+    <tr>
+        <td>anis</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td>robi</td>
+        <td>27</td>
+    </tr>
+  </table>
+  <p>bangladesh is a small country</p>
+</body>
+</html>

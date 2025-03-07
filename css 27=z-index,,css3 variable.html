@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        :root{
+            --praymary-color:green;
+        }
+        :root{
+            --secondary-color:red;
+        }
+        div{
+            height: 250px;
+            width: 250px;
+        }
+        #div1{
+           background-color: var(--praymary-color);
+           position: absolute;
+           z-index: 1;
+           
+        }
+        #div2{
+            background-color: var(--secondary-color);
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+
+    </div>
+    <div id="div2">
+        
+
+    </div>
+</body>
+</html>

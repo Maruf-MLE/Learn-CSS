@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 250px;
+            background-color: green;
+            border: 3px solid red;
+            overflow: auto;
+        }
+        .tooltip{
+           position: relative;
+        }
+        .tooltip .tooltip-text{
+            visibility: hidden;
+            width: 150px;
+            background-color: indigo;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            position: absolute;
+            top: 25px;
+            left: 35px ;
+            z-index: 1;
+
+        }
+        .tooltip:hover .tooltip-text{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <a  href="#" class="tooltip">Facebook
+        <span class="tooltip-text">facebook is a social media</span>
+    </a>
+    <div>
+        <p>Sanctus ut clita ut sed invidunt est aliquyam. Labore no sanctus et sed amet, ut ut sanctus clita diam, lorem takimata et sit sadipscing, tempor stet lorem duo stet consetetur rebum dolore. Accusam ipsum vero vero et et sadipscing ea est vero. No ipsum et rebum erat labore sit sanctus erat justo, amet tempor clita gubergren magna ea sadipscing, rebum sadipscing eirmod stet invidunt ipsum consetetur, consetetur accusam et amet sit lorem gubergren, at nonumy et diam sit duo elitr sit, clita aliquyam et et dolor ut gubergren no. Sed elitr sed et no aliquyam clita labore elitr sed. Aliquyam.</p>
+
+    </div>
+</body>
+</html>

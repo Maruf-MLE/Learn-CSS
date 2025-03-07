@@ -1,0 +1,487 @@
+/* basics design  start here*/
+*{
+    padding: 0;
+    margin: 0;
+   
+    text-align: center;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    outline: 0;
+    background-color: white;
+}
+body{
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    max-width: 100%;
+    width: 95%;
+    box-shadow:0.1rem 0.1rem 0.1rem #c4c4c4,-0.1rem 0rem 0.1rem #c4c4c4;
+    text-align: center;
+    box-sizing: border-box;
+     /* font-family: 'Italianno', cursive; */
+     font-family: 'Roboto', sans-serif;
+}
+
+/* basics design  start here*/
+/* header design start here */
+#header{
+    padding:15px;
+   
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: black;
+    position: sticky;
+    position:sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 5vh;
+}
+figure{
+    flex: 1;
+    background-color: black;
+    text-align: left;
+}
+.logo{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+}
+.nav-container{
+    flex: 1;
+    margin: 5px 0;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.nav-content{
+    background-color: black;
+    color: white;
+    
+    font-size: 1.2rem;
+    align-self: center;
+    font-size:1rem;
+    transition: .4s;
+    padding: 10px;
+    margin-left: 30px;
+}
+.nav-content:hover{
+    background-color: blue;
+    border-radius: 5px;
+  
+}
+
+/* header design end here */
+/* blog desc start here */
+#blog-desc{
+    padding:10px;
+    margin: 15px ;
+    display: flex;
+  
+   
+}
+.aside{
+    margin-left: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.article{
+    margin: 0 auto;
+    padding: 0;
+    flex: 1;
+    
+}
+.desc-img{
+   border: 2px solid black;
+   width: 550px;
+   margin: auto 0;
+   
+}
+.desc-p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.desc-heading{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+
+/* blog desc end here */
+/* about start */
+#about{
+   margin: 10px;
+   padding: 10px;
+   background-color: #454343;
+    
+}
+.main-h{
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Italianno', cursive;
+    font-size: 3.5rem;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card{
+    background-color: #898787;
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.card-h{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.card-p{
+    margin: 20px 0;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.btn{
+    background-color: orange;
+    padding: 5px 85px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 5px;
+    font-size: 1.3rem;
+    text-transform: none;
+   
+}
+.card:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+
+
+/* about end */
+/* archives start here */
+#archives{
+   margin: 15px;
+   padding: 10px;
+}
+.arc-header{
+    font-size: 3.5rem;
+    font-family: 'Italianno', cursive;
+    margin: 20px;
+}
+.arc-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    margin: 0 50px;
+  
+   
+}
+.img{
+    border-radius: 5px;
+   
+}
+.arc-container div:hover{
+   transform: scale(1.2);
+   transition-duration: .4s;
+}
+
+/* archives end here */
+/* blog start here */
+#blog{
+    padding: 10px;
+    margin: 15px;
+}
+#blog h3{
+    font-size: 3.5rem;
+    font-family: 'Italianno', cursive;
+    margin-bottom: 40px;
+}
+#blog h4{
+    font-size: 1.6rem;
+    margin:10px 5px ;
+    text-align: left;
+}
+#blog h5{
+    font-size: 1.2rem;
+    margin:10px 5px ;
+    text-align: left;
+}
+#blog p{
+    font-size: 1rem;
+    margin:5px 5px ;
+    text-align: left;
+}
+.blog-btn{
+    width: 240px;
+    padding: 8px 35px;
+}
+
+.blog-container{
+    display: flex;
+    flex-direction: column;
+}
+.blog{
+   box-shadow: 1px 1px 1px black, -1px  -0px 1px black;
+    border-collapse: collapse;
+    display: flex;
+    margin: 40px;
+    padding-bottom: 0;
+    
+}
+.image{
+    flex: 1;
+    
+}
+.blog-img{
+    padding: 0;
+}
+.blog-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    flex: 3;
+}
+
+
+/* blog end here */
+/* contact start */
+#contact{
+    padding: 10px;
+    margin: 15px;
+    background-color: #454343;
+   color: white;
+}
+.form{
+
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-evenly;
+    box-shadow:0.1rem 0.1rem 0.1rem #000000,-0.1rem 0rem 0.1rem #000000;
+
+}
+.form input{
+    flex: 3;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    justify-content: flex-end;
+}
+.form label{
+    text-align: left;
+    flex: 1;
+    justify-content: flex-start;
+}
+#contact h5{
+    font-size: 3.5rem;
+    font-family: 'Italianno', cursive;
+    margin: 10px;
+    color: white;
+}
+.name,.email,.message{
+    display: flex;
+    font-size: 1.4rem;
+    padding: 20px;
+
+}
+.button{
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+/* contact end */
+
+/* media start here */
+@media(max-width:600px){
+    #header{
+        flex-direction: column;
+    }
+    .nav-container{
+        flex: 1;
+        flex-direction: column;
+       
+       align-self: center;
+        
+    }
+    figure{
+        flex: 1;
+        text-align: center;
+        background-color: black;
+        padding: 15px;
+    }
+    .nav-content{
+        font-size: 0.9rem;
+        text-align: justify;
+        padding: 5px;
+        text-align: left;
+        align-self: flex-start;
+    }
+
+
+
+    #blog-desc{
+      flex-direction: column;
+       
+    }
+    .desc-img{
+       
+        width: 390px;
+        height: 380px;
+        margin:30px 0 ;
+        
+     }
+     .desc-heading {
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+     }
+     .desc-p{
+        font-size: 1rem;
+        margin: 10px;
+     }
+     .card-container{
+        flex-direction: column;
+     }
+     .card{
+        align-self: center;
+        width: 90%;
+        margin-bottom: 55px;
+     }
+
+     .arc-container{
+        flex-direction: column;
+     }
+     .arc-container div{
+        align-self: center;
+     }
+     .img{
+       width: 330px;
+       margin: 20px;
+       padding: 0;
+     }
+
+     .blog{
+        margin:0  auto;
+        margin-bottom: 30px;
+        text-align: center;
+       
+        width: 98%;
+        flex-direction: column;
+     }
+     .blog:hover{
+        transform: scale(1.1);
+        transition-duration: .4s;
+     }
+     .blog-img{
+        width: 100%;
+     }
+     #blog h3,h4,h5,p,.blog-btn{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+     }
+     #blog p{
+        text-align: center;
+     }
+     .blog-btn{
+        width: 170px;
+        text-align: 0.9rem;
+        padding: 8px 25px;
+     }
+
+     
+
+
+
+
+     #contact{
+        padding: 10px;
+        margin: 15px;
+        background-color: #454343;
+       color: white;
+    }
+    .form{
+    
+        width: 90%;
+        margin:  0 auto;
+        padding: 0;
+        text-align: center;
+       
+      justify-content: center;
+      
+    
+    }
+    .form input{
+        text-align: center;
+        font-size: 2.3rem;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .form label{
+        text-align: center;
+        padding: 3px;
+        margin: 0px auto;
+       
+    }
+    #contact h5{
+        font-size: 3.5rem;
+        font-family: 'Italianno', cursive;
+        margin: 10px;
+        margin-bottom: 40px;
+        color: white;
+    }
+    .name,.email,.message{
+       
+        flex-direction: column;
+        font-size: .8rem;
+        margin: 0;
+        padding-bottom: 5px ;
+        margin-bottom: 0px;
+    
+    }
+    .message input{
+        font-size:3.5rem ;
+    }
+    .button{
+        margin: 0 auto;
+        text-align: center;
+        padding: 5px;
+      
+    }
+    .btn-c{
+       padding: 0;
+       width: 130px;
+       padding: 5px 0;
+       font-size: 1.1rem;
+    }
+    
+
+     
+
+}
+
+/* media end here */

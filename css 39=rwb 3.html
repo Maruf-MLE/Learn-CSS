@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    .column{
+        float: left;
+        width: 25%;
+        padding: 10px;
+        background-color: darkolivegreen;
+    }
+    @media screen and (max-width:992px) {
+        .column{
+            float: left;
+            width: 50%;
+            background-color: cadetblue;
+        }
+    }
+    @media screen and  (max-width:600px) {
+       .column{
+        width: 100%;
+    text-align: center;} 
+    }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="column">
+        <h1>HTML</h1>
+        <p>Lorem ut ea takimata no dolore lorem. Labore tempor amet justo et no sadipscing no. Eirmod kasd sed clita gubergren.</p>
+    </div>
+    <div class="column">
+        <h1>CSS</h1>
+        <p>Lorem ut ea takimata no dolore lorem. Labore tempor amet justo et no sadipscing no. Eirmod kasd sed clita gubergren.</p>
+    </div>
+    <div class="column">
+        <h1>JS</h1>
+        <p>Lorem ut ea takimata no dolore lorem. Labore tempor amet justo et no sadipscing no. Eirmod kasd sed clita gubergren.</p>
+    </div>
+    <div class="column">
+        <h1>Bootstrap</h1>
+        <p>Lorem ut ea takimata no dolore lorem. Labore tempor amet justo et no sadipscing no. Eirmod kasd sed clita gubergren.</p>
+    </div>
+  </div>
+</body>
+</html>
